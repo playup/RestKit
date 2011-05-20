@@ -1841,6 +1841,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_DIR = ../../build;
 				BUILD_STYLE = Debug;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1863,6 +1864,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_DIR = ../../build;
 				BUILD_STYLE = Release;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREFIX_HEADER = Code/Support/RestKit_Prefix.pch;
@@ -1947,6 +1949,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_DIR = ../../build;
 				BUILD_STYLE = Release;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREFIX_HEADER = Code/Support/RestKit_Prefix.pch;
